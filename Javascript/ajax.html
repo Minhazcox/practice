@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<!-- <button onclick="ExcGetRequest()">ExcGetRequest</button> -->
+
+<button onclick="ExecPostRequest()">Exec Post Request</button>
+
+    <script>
+
+/*
+function ExcGetRequest(){
+    var URL="https://crud.teamrabbil.com/api/v1/ReadProduct";
+
+    var Configuration= {method:"GET"};
+
+    fetch(URL,Configuration)
+    .then(response=>response.json())
+    .then(result=>console.log(result))
+    .catch(err=>console.log(err));
+}
+*/ 
+
+function ExecPostRequest(){
+    var URL="https://crud.teamrabbil.com/api/v1/CreateProduct";
+
+    var BodyData = {Img:"123",ProductCode:"123",ProductName:"123",Qty:"123",TotalPrice:"123",UnitPrice:"123"};
+
+    var Configuration={
+        method: "POST",
+        headers: {
+            'Accept':'application/json',
+            'Content-Type':'application/json'},
+        body:JSON.stringify(BodyData)
+    }
+
+    fetch(URL,Configuration)
+    .then(response=>response.json())
+    .then(result=>console.log(result))
+    .catch(err=>console.log(err));
+}
+
+    </script>
+</body>
+</html>

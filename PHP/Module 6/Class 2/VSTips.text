@@ -1,0 +1,22 @@
+F1, Ctrl+Shift+p === Find Command Palette
+Ctrl+p = Quick File Open
+Ctrl+Shift+n = New Window Open 
+Ctrl+Shift+w = Close new Window
+Ctrl+x = Cut
+Ctrl+c = Copy
+Ctrl+v = paste
+Shift+Alt+Up/Down arrow = Copy line up/Down
+Alt+Up/Down arrow = Move line up/Down
+Ctrl+Shift+k = Delete line
+Ctrl+Enter = Insert line below
+Ctrl+Shift+Enter = Insert line above
+Ctrl+Shift+\ = Jump to the matching bracket
+Ctrl+Home = Start of File
+Ctrl+End = End of the File
+Ctrl+/ = line comments
+Shift+Alt+A = Multiple line comments
+Ctrl+G = Go to line
+Ctrl+F = Find
+Ctrl+H = Replace
+Ctrl+Shift+[ = Fold
+Ctrl+Shift+] = Unhold
